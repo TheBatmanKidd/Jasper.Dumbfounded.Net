@@ -237,11 +237,16 @@ h1 span {
   color: transparent;
   vertical-align: middle;
   transform-origin: center;
-  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: wave 1.2s ease-in-out infinite;
 }
 
-h1 span:hover {
-  transform: scale(1.4);
+@keyframes wave {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
 }
 
 h2 {
