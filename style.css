@@ -237,14 +237,14 @@ h1 span {
   color: transparent;
   vertical-align: middle;
   transform-origin: center;
-  animation: wave 1.2s ease-in-out infinite;
+  animation: wave 2s ease-in-out infinite;
 }
 
 @keyframes wave {
-  0%, 100% {
+  0%, 20%, 100% {
     transform: scale(1);
   }
-  50% {
+  10% {
     transform: scale(1.4);
   }
 }
