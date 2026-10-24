@@ -231,12 +231,12 @@ h1 {
   display: block;
 }
 
-h1 .letter {
+h1 .span {
   display: inline-block;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
-h1 .letter:hover {
+h1 .span:hover {
   transform: scale(1.3);
 }
 
