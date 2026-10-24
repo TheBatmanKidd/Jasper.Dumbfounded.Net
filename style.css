@@ -220,6 +220,13 @@ h1 {
   text-align: center;
   font-size: 92px;
   font-family: 'CSMS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 span {
+  display: inline-block;
   background: linear-gradient(
     to top,
     #7a0000,
@@ -228,14 +235,9 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  display: block;
-}
-
-h1 span {
-  display: inline-block;
   vertical-align: middle;
   transform-origin: center;
-  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.2s ease;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 h1 span:hover {
