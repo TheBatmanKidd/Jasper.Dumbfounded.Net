@@ -229,8 +229,8 @@ h1 span {
   display: inline-block;
   background: linear-gradient(
     to top,
-    #7a0000,
-    #dd0000
+    #00007a,
+    #0000dd
   );
   background-clip: text;
   -webkit-background-clip: text;
