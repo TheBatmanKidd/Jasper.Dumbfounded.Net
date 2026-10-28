@@ -12,6 +12,11 @@ html, body {
   padding: 0;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
 .content-wrapper {
   flex: 1;
 }
