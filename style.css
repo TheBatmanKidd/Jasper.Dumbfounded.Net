@@ -225,6 +225,7 @@ h1 {
   text-align: center;
   font-size: 92px;
   font-family: 'CSMS', sans-serif;
+  color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,14 +233,7 @@ h1 {
 
 h1 span {
   display: inline-block;
-  background: linear-gradient(
-    to top,
-    #00007a,
-    #0000dd
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  color: red;
   vertical-align: middle;
   transform-origin: center;
   animation: wave 2s ease-in-out infinite;
