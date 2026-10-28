@@ -11,7 +11,7 @@ heading.innerHTML = heading.textContent
 
 // updator
 const CHECK_INTERVAL = 1500;
-const FILES_TO_CHECK = ['/index.html', '/style.css', '/index.js'];
+const FILES_TO_CHECK = ['/index.html', '/style.css', '/script.js'];
 
 let initialFileFingerprints = {};
 
